@@ -1120,6 +1120,10 @@
     name: Merscom
     alt_name: ''
 -
+    id: mediastation
+    name: 'Media Station'
+    alt_name: ''
+-
     id: metropolis
     name: 'Metropolis Software House'
     alt_name: ''

@@ -7202,3 +7202,87 @@
     since_version: DEV
     stable_platforms: 'dos,mac'
     unstable_platforms: ''
+-
+    id: 'mediastation:101dalmatians'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:barbieasrapunzel'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:frogprince'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:herculesasb'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:honeytree'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:janpienkowski'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:lambchop'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:lionking'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:mousecookie'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:notredame'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:pocahontas'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'mediastation:puzzlecastle'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''

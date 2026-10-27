@@ -2223,6 +2223,15 @@
     language3: ''
     url: /frs/demos/mads/phantom-dos-demo-en.zip
 -
+    id: 'mediastation:puzzlecastle'
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/mediastation/puzzlecastle-windows-demo.zip
+-
     id: 'mm:cloudsofxeen'
     platform: dos
     '': ''

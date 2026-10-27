@@ -9800,6 +9800,174 @@
     wikipedia_page: Once_Upon_a_Forest
     series_id: ''
 -
+    id: 'mediastation:101dalmatians'
+    name: "Disney's Animated Storybook: 101 Dalmatians"
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1996'
+    moby_id: '128919'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:barbieasrapunzel'
+    name: 'Magic Fairy Tales: Barbie as Rapunzel'
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1997'
+    moby_id: '51384'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:frogprince'
+    name: 'Fractured Fairy Tales: The Frog Prince'
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1996'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:herculesasb'
+    name: "Disney's Animated Storybook: Hercules"
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1997'
+    moby_id: '69700'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:honeytree'
+    name: "Disney's Animated Storybook: Winnie the Pooh and the Honey Tree"
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1996'
+    moby_id: '108724'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:janpienkowski'
+    name: 'Jan Pieńkowski Haunted House'
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1995'
+    moby_id: '40935'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:lambchop'
+    name: 'Lamb Chop Loves Music'
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1995'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:lionking'
+    name: "Disney's Animated Storybook: The Lion King"
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1995'
+    moby_id: '121090'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:mousecookie'
+    name: 'If You Give a Mouse a Cookie Interactive Storybook'
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1995'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:notredame'
+    name: "Disney's Animated Storybook: The Hunchback of Notre Dame"
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1996'
+    moby_id: '128921'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:pocahontas'
+    name: "Disney's Animated Storybook: Pocahontas"
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1996'
+    moby_id: '125030'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'mediastation:puzzlecastle'
+    name: 'Puzzle Castle'
+    engine_id: mediastation
+    company_id: mediastation
+    year: '1996'
+    moby_id: '169252'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'mm:mm1'
     name: 'Might and Magic: Book One - Secret of the Inner Sanctum'
     engine_id: mm

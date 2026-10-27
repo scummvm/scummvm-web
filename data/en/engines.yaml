@@ -340,6 +340,11 @@
     alt_name: 'Multimedia Applications Development Environment'
     enabled: true
 -
+    id: mediastation
+    name: 'Media Station'
+    alt_name: ''
+    enabled: false
+-
     id: mads
     name: MADS
     alt_name: 'MicroProse Adventure Development System'
