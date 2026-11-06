@@ -3,8 +3,8 @@
   "description": "ScummVM.org main site",
   "version": "1.0.0",
   "dependencies": {
-    "autoprefixer": "^10.6.1",
-    "postcss": "^8.5.31",
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
     "sass": "^1.106.1"
   },
   "scripts": {
