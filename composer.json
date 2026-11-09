@@ -19,7 +19,7 @@
     "spatie/yaml-front-matter": "^2.1",
     "erusev/parsedown": "^1.8",
     "phpfastcache/phpfastcache": "^9.2",
-    "league/csv": "^9.28",
+    "league/csv": "^9.29",
     "symfony/yaml": "^7.4",
     "predis/predis": "^3.7",
     "guzzlehttp/guzzle": "^8.3",

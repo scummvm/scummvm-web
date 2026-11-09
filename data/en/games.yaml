@@ -9240,6 +9240,20 @@
     wikipedia_page: Hyperspace_Delivery_Boy!
     series_id: ''
 -
+    id: 'hollywood:hollywood'
+    name: 'Hollywood Monsters'
+    engine_id: hollywood
+    company_id: pendulo
+    year: '1997'
+    moby_id: '3696'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Hollywood_Monsters
+    wikipedia_page: Hollywood_Monsters_(video_game)
+    series_id: ''
+-
     id: 'hopkins:hopkins'
     name: 'Hopkins FBI'
     engine_id: hopkins

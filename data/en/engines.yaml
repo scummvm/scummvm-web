@@ -255,6 +255,11 @@
     alt_name: ''
     enabled: true
 -
+    id: hollywood
+    name: 'Hollywood Monsters'
+    alt_name: ''
+    enabled: false
+-
     id: hopkins
     name: 'Hopkins FBI'
     alt_name: ''

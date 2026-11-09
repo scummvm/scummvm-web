@@ -4349,3 +4349,9 @@
     platform_id: dos
     language: de
     variant_id: '1'
+-
+    id: 'hollywood:hollywood'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
