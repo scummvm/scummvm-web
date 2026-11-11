@@ -378,6 +378,10 @@
         name: "Arnaud Boutonn&eacute;"
         alias: "Strangerke"
         description: ""
+      -
+        name: "Mohit Bankar"
+        alias: "mohit"
+        description: ""
     -
       name: "awe"
       person:
@@ -665,6 +669,10 @@
         name: "Bendeg&uacute;z Nagy"
         alias: "WinterGrascph"
         description: ""
+      -
+        name: "Mohit Bankar"
+        alias: "mohit"
+        description: ""
     -
       name: "Draci"
       person:
@@ -925,6 +933,13 @@
         alias: "phcoder"
         description: ""
     -
+      name: "Harold"
+      person:
+      -
+        name: "Scorp"
+        alias: "Scorp"
+        description: ""
+    -
       name: "Harvester"
       person:
       -
@@ -942,6 +957,13 @@
         name: "Nipun Garg"
         alias: "nipung"
         description: "GSoC student"
+    -
+      name: "Hollywood"
+      person:
+      -
+        name: "Gustavo Grieco"
+        alias: "neuromancer"
+        description: ""
     -
       name: "Hopkins"
       person:
@@ -1334,13 +1356,13 @@
         alias: "whoozle"
         description: ""
       -
-        name: "Hermann Noll"
-        alias: "Helco"
-        description: "Help with 3D VR projections"
-      -
         name: "???"
         alias: "Scorp"
         description: "Dracula 1/2 and Messenger support, Engine improvements"
+      -
+        name: "Hermann Noll"
+        alias: "Helco"
+        description: "Help with 3D VR projections"
     -
       name: "Pink"
       person:
@@ -3177,6 +3199,13 @@
         name: "Thierry Crozat"
         alias: "criezy"
         description: "Improve French translation"
+    -
+      name: "Hollywood"
+      person:
+      -
+        name: "Nikos Daskos"
+        alias: "ShinjiGR"
+        description: "Hollywood Monsters English translation and translated graphics"
     -
       name: "Mortevielle"
       person:
