@@ -23,5 +23,16 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "globals": "^17.14.0",
     "typescript-eslint": "^8.72.2"
+  },
+  "overrides": {
+    "eslint": {
+      "minimatch": "^11.0.1"
+    },
+    "@eslint/config-array": {
+      "minimatch": "^11.0.1"
+    },
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.1"
+    }
   }
 }
