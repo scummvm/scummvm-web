@@ -192,7 +192,10 @@ export default function Dumper() {
             <div>
                 <p>Select the game's language:</p>
                 <select disabled={busy} value={lang} onInput={handleLanguage}>
-                    {getLanguages().map((lang, i) => <option key={i} value={lang}>{lang}</option>)}
+                    {
+                        // eslint-disable-next-line @eslint-react/no-array-index-key
+                        getLanguages().map((lang, i) => <option key={i} value={lang}>{lang}</option>)
+                    }
                 </select>
             </div>
 

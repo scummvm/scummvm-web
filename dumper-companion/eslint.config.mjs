@@ -1,26 +1,41 @@
-import eslint from '@eslint/js';
 import { defineConfig } from 'eslint/config';
-import preact from 'eslint-config-preact';
+import eslintJS from '@eslint/js';
+import eslintReact from "@eslint-react/eslint-plugin";
+import eslintTS from 'typescript-eslint';
 import globals from 'globals';
+import reactHooks from "eslint-plugin-react-hooks";
 import stylistic from '@stylistic/eslint-plugin';
-import tseslint from 'typescript-eslint';
 
 export default defineConfig(
-    eslint.configs.recommended,
-    preact,
     {
         name: "global ignores",
         ignores: ["node_modules", "dist"],
     },
     {
         name: "global settings",
+        extends: [
+            eslintJS.configs.recommended,
+            eslintReact.configs.strict,
+            eslintReact.configs["disable-conflict-eslint-plugin-react-hooks"],
+            reactHooks.configs.flat.recommended,
+        ],
+
         languageOptions: {
             ecmaVersion: "latest",
             sourceType: "module",
+            parserOptions: {
+                ecmaFeatures: { jsx: true },
+            },
         },
 
         plugins: {
             "@stylistic": stylistic,
+        },
+
+        settings: {
+            "react-x": {
+                importSource: "preact",
+            },
         },
 
         rules: {
@@ -50,11 +65,13 @@ export default defineConfig(
         name: "typescript specific",
         files: ["**/*.ts", "**/*.tsx"],
 
-        extends: [tseslint.configs.recommendedTypeChecked],
+        extends: [
+            eslintTS.configs.recommendedTypeChecked,
+            eslintReact.configs["strict-type-checked"],
+        ],
         languageOptions: {
             parserOptions: {
                 projectService: true,
-                jsxPragma: null,
             },
         },
     },
