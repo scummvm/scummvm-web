@@ -207,7 +207,7 @@ export default function Dumper() {
             </div>
 
             <div>
-                <button disabled={busy || image == null} onClick={handleDump}>Dump!</button>
+                <button type="button" disabled={busy || image == null} onClick={handleDump}>Dump!</button>
             </div>
         </div>
         <div class="out box">

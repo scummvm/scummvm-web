@@ -41,8 +41,8 @@ export default function Punycoder() {
         </p>
         <div>
             <input type="text" placeholder="File name" value={text} onInput={handleText}/>
-            <button onClick={encode}>Encode</button>
-            <button onClick={decode}>Decode</button>
+            <button type="button" onClick={encode}>Encode</button>
+            <button type="button" onClick={decode}>Decode</button>
         </div>
     </div>);
 }
