@@ -18,7 +18,7 @@ jobs:
         sudo apt install -y glue-sprite && \
         sudo ln -s glue-sprite /usr/bin/glue && \
         sudo sed -i -e 's/PILImage\.ANTIALIAS/PILImage.LANCZOS/' /usr/lib/python3/dist-packages/glue/formats/img.py && \
-        sudo sed -i -e 's/re\.compile(/re.compile(r/' /usr/lib/python3/dist-packages/glue/core.py && \
+        sudo sed -i -e "s/re\\.compile('/re.compile(r'/" /usr/lib/python3/dist-packages/glue/core.py && \
         sudo sed -i -e 's/PImage\.VERSION/PImage.__version__/' /usr/lib/python3/dist-packages/glue/bin.py
     - uses: actions/checkout@v7
     - name: Validate composer.json and composer.lock
