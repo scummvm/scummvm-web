@@ -1,5 +1,5 @@
 import { ComponentChild } from 'preact';
-import { useState, useEffect } from 'preact/hooks';
+import { useState } from 'preact/hooks';
 import { Volume } from './hfs/main';
 import { dump3DO } from './3do/main';
 import { Language, getLanguages } from './encoding';
@@ -70,7 +70,14 @@ export default function Dumper() {
     const [unicode, setUnicode] = useState(true);
     const [forceMacBinary, setForceMacBinary] = useState(false);
     const [strip3DOPrefixes, setStrip3DOPrefixes] = useState(false);
-    const [progress, setProgress] = useState<Progress>({busy: false, logs: [], lastLogWasDumpPercent: false, dumpPercent: -1});
+    const [progress, setProgress] = useState<Progress>({
+        busy: false,
+        logs: [
+            <li key={0}>Waiting for input...</li>,
+        ],
+        lastLogWasDumpPercent: false,
+        dumpPercent: -1
+    });
 
     function log(msg: ComponentChild | Error): void {
         console.log(msg);
@@ -163,14 +170,6 @@ export default function Dumper() {
         });
         reader.readAsArrayBuffer(image.file);
     }
-
-    useEffect((): void => {
-        setProgress((p: Progress): Progress => {
-            const logs = [<li key={p.logs.length}>Waiting for input...</li>];
-            const lastLogWasDumpPercent = false;
-            return {...p, logs, lastLogWasDumpPercent};
-        });
-    }, []);
 
     const busy = progress.busy;
 
