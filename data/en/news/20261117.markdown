@@ -1,0 +1,21 @@
+---
+title: "Extra, extra! Tonight is Hollywood Monsters!"
+author: gu3
+date: 1794942000
+---
+
+![Hollywood Monsters screenshot](https://www.scummvm.org/data/screenshots/hollywood/hollywood/hollywood_win_es_1_4.jpg)
+
+The ScummVM Team is pleased to announce that *Hollywood Monsters*, the 1997 point-and-click comedy adventure by Pendulo Studios, is ready for public testing!
+
+In a world where the monsters of the silver screen aren't special effects but real-life stars, Frankenstein's monster, the Mummy, Dracula and friends are working actors. Every year the industry honors them at the glamorous Hollywood Monsters awards gala. Reporters Ron Ashman and Sue Bergman of *The Quill* are sent to cover the ceremony, but when Sue vanishes while chasing a much bigger story, it's up to Ron to follow the trail from the backlots of Hollywood to Scotland, Switzerland, Australia and beyond.
+
+*Hollywood Monsters* is a classic verb-based adventure full of absurd characters, affectionate parodies of the golden age of monster movies, and puzzles that range from inventory combinations to conversations with bizarre characters.
+
+The game was only ever released in Spanish and Italian, but that's no longer a language barrier: ScummVM includes a complete set of English subtitles, so you can now enjoy Ron and Sue's adventure.
+
+For this testing period, ScummVM supports the Spanish and Italian original releases, as well as the corresponding demos. As usual, you will need the original game data files to play.
+
+To join the test, grab a recent [daily development build](https://www.scummvm.org/downloads/#daily), add your game directory to ScummVM, and play through the game. Please report any problems you encounter on our [issue tracker](https://bugs.scummvm.org/), following our [bug submission guidelines](https://www.scummvm.org/faq/#question.report-bugs). Screenshots and saved games demonstrating an issue are always helpful.
+
+Are you ready to get the scoop of the century?
