@@ -543,6 +543,13 @@
         alias: "neuromancer"
         description: ""
     -
+      name: "Comfy"
+      person:
+      -
+        name: "Andrea Boscarino"
+        alias: "Bosca"
+        description: ""
+    -
       name: "Composer"
       person:
       -
@@ -1019,6 +1026,17 @@
         name: "Einar Johan T. S&oslash;m&aring;en"
         alias: "somaen"
         description: ""
+    -
+      name: "Igor"
+      person:
+      -
+        name: "Gabriel Sanmartín"
+        alias: "kelmer"
+        description: "engine implementation"
+      -
+        name: "Gregory Montoir"
+        alias: "cyx"
+        description: "original engine foundation & demo support"
     -
       name: "Illusions"
       person:
@@ -1940,6 +1958,14 @@
         name: "Paul Robson"
         alias: ""
         description: "(Akalabeth)"
+      -
+        name: "???"
+        alias: "Voyager Dragon"
+        description: "(U2 Patch)"
+      -
+        name: "???"
+        alias: "Voyager Dragon"
+        description: "(U3 Patch)"
       -
         name: "Daniel c. W&uuml;rl"
         alias: "dwuerl"
