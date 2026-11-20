@@ -7293,3 +7293,10 @@
     since_version: DEV
     stable_platforms: segacd
     unstable_platforms: ''
+-
+    id: 'hollywood:hollywood'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,win'
+    unstable_platforms: ''
