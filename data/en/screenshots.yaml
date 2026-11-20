@@ -1608,6 +1608,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'hollywood:hollywood'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
     id: 'hopkins:hopkins'
     variant: ''
     platform_id: linux
@@ -1656,6 +1662,24 @@
     language: en
     variant_id: '1'
 -
+    id: 'igor:igor'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'igor:igor'
+    variant: Floppy
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: 'igor:igor'
+    variant: CD
+    platform_id: dos
+    language: es
+    variant_id: '2'
+-
     id: 'illusions:duckman'
     variant: ''
     platform_id: win
@@ -1674,7 +1698,55 @@
     language: en
     variant_id: '1'
 -
+    id: 'kyra:eob'
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: 'kyra:eob'
+    variant: ''
+    platform_id: pc98
+    language: ja
+    variant_id: '1'
+-
+    id: 'kyra:eob'
+    variant: ''
+    platform_id: segacd
+    language: en
+    variant_id: '1'
+-
+    id: 'kyra:eob'
+    variant: ''
+    platform_id: segacd
+    language: ja
+    variant_id: '1'
+-
     id: 'kyra:eob2'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'kyra:eob2'
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: 'kyra:eob2'
+    variant: ''
+    platform_id: pc98
+    language: ja
+    variant_id: '1'
+-
+    id: 'kyra:eob2'
+    variant: ''
+    platform_id: fmtowns
+    language: ja
+    variant_id: '1'
+-
+    id: 'kyra:kyra1'
     variant: ''
     platform_id: dos
     language: en
@@ -1683,7 +1755,13 @@
     id: 'kyra:kyra1'
     variant: ''
     platform_id: dos
-    language: en
+    language: ko
+    variant_id: '1'
+-
+    id: 'kyra:kyra1'
+    variant: ''
+    platform_id: dos
+    language: zh-tw
     variant_id: '1'
 -
     id: 'kyra:kyra1'
@@ -1724,6 +1802,12 @@
 -
     id: 'kyra:kyra2'
     variant: ''
+    platform_id: dos
+    language: zh-tw
+    variant_id: '1'
+-
+    id: 'kyra:kyra2'
+    variant: ''
     platform_id: fmtowns
     language: ja
     variant_id: '1'
@@ -1740,10 +1824,22 @@
     language: de
     variant_id: '1'
 -
+    id: 'kyra:kyra3'
+    variant: ''
+    platform_id: dos
+    language: zh-cn
+    variant_id: '1'
+-
     id: 'kyra:lol'
     variant: CD
     platform_id: dos
     language: en
+    variant_id: '1'
+-
+    id: 'kyra:lol'
+    variant: ''
+    platform_id: dos
+    language: zh-tw
     variant_id: '1'
 -
     id: 'kyra:lol'
@@ -3912,6 +4008,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'snatcher:snatcher'
+    variant: ''
+    platform_id: segacd
+    language: en
+    variant_id: '1'
+-
     id: 'supernova:msn1'
     variant: ''
     platform_id: dos
@@ -4348,10 +4450,4 @@
     variant: ''
     platform_id: dos
     language: de
-    variant_id: '1'
--
-    id: 'hollywood:hollywood'
-    variant: ''
-    platform_id: win
-    language: es
     variant_id: '1'

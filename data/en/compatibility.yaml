@@ -7286,3 +7286,10 @@
     since_version: DEV
     stable_platforms: 'win,mac'
     unstable_platforms: ''
+-
+    id: 'snatcher:snatcher'
+    support: untested
+    notes: '- Only Sega CD versions are supported'
+    since_version: DEV
+    stable_platforms: segacd
+    unstable_platforms: ''

@@ -258,7 +258,7 @@
     id: hollywood
     name: 'Hollywood Monsters'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: hopkins
     name: 'Hopkins FBI'
@@ -493,6 +493,11 @@
     id: sludge
     name: SLUDGE
     alt_name: 'Scripting Language for Unhindered Development of a Gaming Environment'
+    enabled: true
+-
+    id: snatcher
+    name: Snatcher
+    alt_name: ''
     enabled: true
 -
     id: stark

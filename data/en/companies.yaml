@@ -956,6 +956,10 @@
     name: 'Kompart UK'
     alt_name: ''
 -
+    id: konami
+    name: Konami
+    alt_name: ''
+-
     id: korozif
     name: Korozif
     alt_name: ''

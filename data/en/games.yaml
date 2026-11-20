@@ -13818,6 +13818,20 @@
     wikipedia_page: ''
     series_id: sludge
 -
+    id: 'snatcher:snatcher'
+    name: Snatcher
+    engine_id: snatcher
+    company_id: konami
+    year: '1994'
+    moby_id: '7524'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Snatcher
+    wikipedia_page: Snatcher_(video_game)
+    series_id: snatcher
+-
     id: 'stark:tlj'
     name: 'The Longest Journey'
     engine_id: stark
