@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "autoprefixer": "^10.6.2",
-    "postcss": "^8.5.32",
+    "postcss": "^8.5.33",
     "sass": "^1.108.2"
   },
   "scripts": {
