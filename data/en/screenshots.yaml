@@ -1730,6 +1730,12 @@
 -
     id: 'kyra:eob2'
     variant: ''
+    platform_id: dos
+    language: zh-tw
+    variant_id: '1'
+-
+    id: 'kyra:eob2'
+    variant: ''
     platform_id: amiga
     language: en
     variant_id: '1'

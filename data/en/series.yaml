@@ -318,9 +318,6 @@
     id: simon
     name: 'Simon the Sorcerer'
 -
-    id: snatcher
-    name: Snatcher
--
     id: sniper
     name: 'Sniper and Spotter'
 -
