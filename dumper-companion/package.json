@@ -12,11 +12,11 @@
     "preact": "^11.2.0",
     "punycode": "^2.3.1",
     "ts-loader": "^9.6.2",
-    "webpack": "^5.112.2",
+    "webpack": "^5.113.0",
     "webpack-cli": "^7.3.1"
   },
   "devDependencies": {
-    "@eslint-react/eslint-plugin": "^5.30.3",
+    "@eslint-react/eslint-plugin": "^5.30.5",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^6.0.1",
     "eslint": "^10.15.0",
