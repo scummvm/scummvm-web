@@ -7300,3 +7300,10 @@
     since_version: DEV
     stable_platforms: 'dos,win'
     unstable_platforms: ''
+-
+    id: 'igor:igor'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
